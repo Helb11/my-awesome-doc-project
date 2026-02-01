@@ -47,7 +47,7 @@ theme: # Тема сайта, информация о ее параметрах
         - skills/index.md
       - Портфолио:
         - portfolio/index.md
-        - Пользовательский сценарий: portfolio/custom-script.md
+        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
   markdown_extentions: # Расширения markdown
     - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
     - footnotes # Поддержка встроенных сносок на страницах
