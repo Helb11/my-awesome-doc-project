@@ -43,6 +43,11 @@ theme: # Тема сайта, информация о ее параметрах
     - content.code.copy # Кнопка копирования в блоке кода
   nav:
       - Главная страница: index.md
+      - Скиллы:
+        - skills/index.md
+      - Портфолио:
+        - portfolio/index.md
+        - Пользовательский сценарий: portfolio/custom-script.md
   markdown_extentions: # Расширения markdown
     - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
     - footnotes # Поддержка встроенных сносок на страницах
