@@ -60,3 +60,4 @@ theme: # Тема сайта, информация о ее параметрах
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
   piugins:
     - search # Плагин для подключения поиска на портале
+    - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений
