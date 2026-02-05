@@ -41,32 +41,32 @@ theme: # Тема сайта, информация о ее параметрах
     - search.suggest # Подсказки при вводе поискового запроса
     - search.highlight # Подсветка результатов поиска в тексте страницы
     - content.code.copy # Кнопка копирования в блоке кода
-  nav:
-      - Главная страница: index.md
-      - Скиллы:
-        - skills/index.md
-      - Портфолио:
-        - portfolio/index.md
-        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
-      - API документация Swagger: api/api-swagger.md
-      - API документация Redoc: api/api-redoc.md
-  markdown_extentions: # Расширения markdown
-    - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
-    - footnotes # Поддержка встроенных сносок на страницах
-    - attr_list # Использование html-атрибутов и CSS в элементах markdown
-    - md_in_html # Поддержка markdown внутри html
-    - def_list # Поддержка списков определений
-    - pymdownx.tabbed: # Использование вкладок (табов)
-        alternate_style: true
-    - pymdownx.details # Использование спойлеров (катов)
-    - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
-        anchor_linenums: true
-    - pymdownx.superfences # Поддержка вложенных блоков кода
-    - pymdownx.emoji: # Иконки и эмодзи
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  piugins:
-    - search # Плагин для подключения поиска на портале
-    - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений
-    - swagger-ui-tag #Плагин позволяет интегрировать документацию OpenApi в проект через swagger
-    - sredoc-tag #Плагин позволяет интегрировать документацию OpenApi в проект через redoc
+nav:
+     - Главная страница: index.md
+     - Скиллы:
+       - skills/index.md
+     - Портфолио:
+       - portfolio/index.md
+       - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
+     - API документация Swagger: api/api-swagger.md
+     - API документация Redoc: api/api-redoc.md
+markdown_extentions: # Расширения markdown
+  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - footnotes # Поддержка встроенных сносок на страницах
+  - attr_list # Использование html-атрибутов и CSS в элементах markdown
+  - md_in_html # Поддержка markdown внутри html
+  - def_list # Поддержка списков определений
+  - pymdownx.tabbed: # Использование вкладок (табов)
+      alternate_style: true
+  - pymdownx.details # Использование спойлеров (катов)
+  - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
+      anchor_linenums: true
+  - pymdownx.superfences # Поддержка вложенных блоков кода
+  - pymdownx.emoji: # Иконки и эмодзи
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+   - search # Плагин для подключения поиска на портале
+   - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений
+   - swagger-ui-tag #Плагин позволяет интегрировать документацию OpenApi в проект через swagger
+   - redoc-tag #Плагин позволяет интегрировать документацию OpenApi в проект через redoc
