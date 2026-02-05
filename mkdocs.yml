@@ -48,8 +48,10 @@ nav:
      - Портфолио:
        - portfolio/index.md
        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
-     - API документация Swagger: api/api-swagger.md
-     - API документация Redoc: api/api-redoc.md
+     - API документация:
+        - api/index.md 
+        - API в Swagger: api/api-swagger.md
+        - API в  Redoc: api/api-redoc.md
 markdown_extentions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
@@ -70,3 +72,5 @@ plugins:
    - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений
    - swagger-ui-tag #Плагин позволяет интегрировать документацию OpenApi в проект через swagger
    - redoc-tag #Плагин позволяет интегрировать документацию OpenApi в проект через redoc
+   - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/

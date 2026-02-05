@@ -21,5 +21,6 @@ jobs:
       - run: pip install mkdocs-glightbox # установка плагина glightbox для  mkdocs
       - run: pip install mkdocs-swagger-ui-tag #установка плагина для интеграции OpenApi через swagger
       - run: pip install mkdocs-redoc-tag #установка плагина для интеграции OpenApi через redoc
+      - run: pip install mkdocs_puml #активируем возможность отрисовки диаграмм построенных в plantuml
       - run: mkdocs gh-deploy --force
       
