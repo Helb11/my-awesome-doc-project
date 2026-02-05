@@ -49,9 +49,9 @@ nav:
        - portfolio/index.md
        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
      - API документация:
-        - api/index.md 
-        - API в Swagger: api/api-swagger.md
-        - API в  Redoc: api/api-redoc.md
+       #- api/index.md 
+       - API в Swagger: api/api-swagger.md
+       - API в  Redoc: api/api-redoc.md
 markdown_extentions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
