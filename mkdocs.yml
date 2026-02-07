@@ -49,10 +49,10 @@ nav:
        - portfolio/index.md
        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
      - API документация:
-       #- api/index.md 
+       - api/index.md 
        - API в Swagger: api/api-swagger.md
        - API в  Redoc: api/api-redoc.md
-markdown_extentions: # Расширения markdown
+markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
@@ -67,6 +67,9 @@ markdown_extentions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      #base_path:
+      #- docs
 plugins:
    - search # Плагин для подключения поиска на портале
    - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений
@@ -74,3 +77,5 @@ plugins:
    - redoc-tag #Плагин позволяет интегрировать документацию OpenApi в проект через redoc
    - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+extra_css:
+  - stylesheets/extra.css
