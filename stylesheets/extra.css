@@ -1,0 +1,54 @@
+/* Настройки светлой схемы */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #d665ec; /*Основной цвет*/
+  --md-accent-fg-color: #A465B1; /*Акцентный цвет*/
+  --md-typeset-a-color: #d0df4d; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
+
+/* Настройки тёмной схемы */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #842199; /*Основной цвет*/
+  --md-accent-fg-color: #E38CF6; /*Акцентный цвет*/
+  --md-typeset-a-color: #849115cb; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
+
+.md-typeset {
+    font-family: 'Tahoma', 'arial';
+    font-weight: 200;
+    font-size: 16px;
+    color: #4b5563;
+}
+
+.md-content h1, .md-content h2, .md-content h3, .md-content h4 {
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.md-content h1 {
+    font-size: 30px;
+}
+
+.md-content h2 {
+    font-size: 24px;
+}
+
+.md-content h3 {
+    font-size: 21px;
+}
+
+.md-content h4 {
+    font-size: 18px;
+}
