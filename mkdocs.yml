@@ -48,6 +48,7 @@ nav:
      - Портфолио:
        - portfolio/index.md
        - Пользовательский сценарий приложения Нотсапп "Удаление заметки": portfolio/custom-script.md
+       - Пользовательский сценарий "Создание папок в мобильном приложении Telelgram": portfolio/helb11-instruction.md
      - API документация:
        - api/index.md 
        - API в Swagger: api/api-swagger.md
@@ -68,8 +69,8 @@ markdown_extensions: # Расширения markdown
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.snippets:
-      #base_path:
-      #- docs
+      base_path:
+      - docs
 plugins:
    - search # Плагин для подключения поиска на портале
    - glightbox #Плагин позволяет окрывать изображения на весь экран и создаёт галерею изображений

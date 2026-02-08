@@ -1,7 +1,4 @@
 
-# --8<-- [start:code]
-
-```puml
 @startuml
 
 actor Пользователь as u
@@ -37,6 +34,4 @@ u <-- p: открывает заметку
 end alt
 
 @enduml
-```
 
-# --8<-- [end:code]
